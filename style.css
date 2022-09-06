@@ -1,0 +1,116 @@
+body{
+  background-color:hsl(257, 40%, 49%);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background-position: center top;
+  background-image: url(images/bg-mobile.svg);
+  background-repeat: no-repeat;
+}
+.wrapper{
+  width: 311px;
+  padding: 1em;
+  margin: 0 auto;
+}
+header{
+display: flex;
+flex-direction: column;
+width: 311px;
+row-gap: 3.5em;
+}
+main{
+  text-align: center;
+}
+h2{
+  font-weight: 600;
+}
+p{
+  font-size: 15px;
+}
+button{
+  width: 15em;
+  padding: .70em;
+  border: 0;
+  border-radius: 1.5em;
+  color: hsl(257, 40%, 49%);
+}
+button:hover{
+  background-color: hsl(300, 69%, 71%);
+  color: white;
+  cursor: pointer;
+}
+footer{
+  text-align: center;
+}
+.icons{
+  margin: 3em;
+}
+.fa-brands{
+  font-size: 1.6em;
+  width: 1.2em;
+}
+.fa-brands:hover{
+  cursor: pointer;
+  color: hsl(300, 69%, 71%);
+}
+@media (min-width: 770px){
+  body{
+    background-image: url(images/bg-desktop.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  header{
+    row-gap: 1em;
+  }
+  .wrapper{
+    width: 90%;
+    padding: 0;
+    margin: auto;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    gap: 4em;
+  }
+
+  header{
+    width: 60%;
+  }
+  #logo{
+    width: 172px;
+    margin: 2em 0em 2em 0em;
+  }
+  main{
+    text-align: initial;
+
+  }
+  h2{
+    font-size: 32px;
+    font-weight: 600;
+    width: 75%;
+  }
+  p{
+    font-size: 15px;
+    width: 90%;
+  }
+  button{
+    width: 10em;
+    padding: .75em;
+  }
+  footer{
+    text-align: right;
+  }
+  .icons{
+    margin: 0;
+    margin-right: 4em;
+  }
+  .fa-brands{
+    font-size: 1.75em;
+    width: 1.2em;
+  }
+
+
+}
